@@ -1,0 +1,31 @@
+package com.upskill.assignment_3;
+
+import com.upskill.java_1.MethodType;
+
+public class Inheritance extends MethodType{
+	
+	// *The process of obtaining the data members and methods from class from one class to another class in known as inheritance
+	//single Inheritance
+	//Multiple Inheritance  ( Java doesn't support
+	//Multilevel Inheritance
+	
+	
+
+	public static void main(String[] args) {
+		
+		Inheritance obj = new Inheritance();
+		
+		
+		// Single Inheritance
+		obj.annualIncomeVoid();
+		obj.weeklyIncomeStatic();
+		
+		//Multilevel Inheritance
+		
+		obj.ny("Kumo");
+		obj.nj("Phill");
+		// TODO Auto-generated method stub
+
+	}
+
+}

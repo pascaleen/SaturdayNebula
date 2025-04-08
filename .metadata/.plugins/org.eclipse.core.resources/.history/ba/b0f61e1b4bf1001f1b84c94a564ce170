@@ -1,0 +1,21 @@
+package com.upskill.java_4;
+
+public class Polymophism {
+
+	public static void main(String[] args) {
+		car(4);
+		
+		// TODO Auto-generated method stub
+
+	}
+	
+	
+	public static void car() {
+		System.out.println("My Car is Volvo !");
+	}
+
+	
+	public static void car(int door) {
+		System.out.println("My Car is Volvo !, it has door : " + door);
+	}
+}

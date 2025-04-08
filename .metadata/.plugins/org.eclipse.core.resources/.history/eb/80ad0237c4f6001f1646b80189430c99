@@ -1,0 +1,33 @@
+package com.upskill.java_4;
+
+public class Encapsulation {
+	
+	String name = "Upskill";
+	int ssn = 512547;
+	String username = "passpeiris";
+	
+	//setter method - name                            //write & read
+	public void setName(String value) {
+		name = value;	
+	}
+	
+	//Getting method - name                            //write & read
+		public String getName() {
+			return name;	
+		}
+
+		
+		
+	public static void main(String[] args) {
+		
+		Encapsulation obj = new Encapsulation();
+		obj.setName("Akain");
+		
+		System.out.println(obj.getName());
+		
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

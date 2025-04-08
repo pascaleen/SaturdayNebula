@@ -1,0 +1,75 @@
+package com.upskill.java_1;
+
+import com.upskill.java_2.Loops;
+
+public class  Variables extends Loops{
+
+	public static void main(String[] args) {
+
+		
+		Variables obj = new Variables();
+		
+		System.out.println(precident);
+		System.out.println(obj.viceprecident);
+		
+		ny("Kirsten");
+		nj("Cory");
+		
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static String country = "USA";
+	
+	public static String region = "North America";
+	
+	public static String precident = "Trump";
+	
+	public String viceprecident = "Vance";
+	
+	
+	
+	public static void ny(String senator) {
+		String city = "Queens";
+		String county = "Nassau";
+		
+		
+		
+		System.out.println(city);
+		System.out.println(county);
+		System.out.println(country);
+		System.out.println(region);
+		
+		System.out.println(senator);
+			
+	}
+	
+	
+	public static void nj(String senator) {
+		String city = "Bloomfield";
+		String county = "Essex";
+		
+		System.out.println(city);
+		System.out.println(county);
+		System.out.println(country);
+		System.out.println(region);
+		System.out.println(senator);
+	}
+	
+	public static void ct(String senator) {
+		String city = "Hartford";
+		String county = "Essex";
+
+		System.out.println(city);
+		System.out.println(county);
+		System.out.println(country);
+		System.out.println(region);
+		System.out.println(senator);
+	}
+	
+	
+	
+	
+	
+
+}

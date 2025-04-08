@@ -1,0 +1,28 @@
+package com.upskill.java_2;
+
+public class Loops {
+	
+	/*
+	 * 
+	 */
+	
+
+	public static void main(String[] args) {
+		
+		practiceForLoop();
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void practiceForLoop() {
+		
+		int i;
+		for(i=1; i<10; i++) {
+			System.out.println("For Loops number = " + i);
+			
+			
+		}
+		
+	}
+
+}

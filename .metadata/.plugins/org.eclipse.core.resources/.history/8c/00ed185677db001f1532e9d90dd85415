@@ -1,0 +1,24 @@
+package com.upskill.java_1;
+
+public class DataTypes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Hello World, This is Pascaleen");
+		
+		int a = 5;
+		int b = a*10;
+
+		
+		System.out.println(b);
+		
+		String city = "East Brunswick";
+		String state = "NJ";
+		
+		System.out.println(city);
+		System.out.println(state);
+
+	}
+
+}

@@ -1,0 +1,53 @@
+package com.upskill.java_1;
+
+public class Variables {
+
+	public static void main(String[] args) {
+
+		ny(); nj(); 	// TODO Auto-generated method stub
+
+	}
+	
+	public static String country = "USA";
+	
+	public static String region = "North America";
+	
+	
+	public static void ny() {
+		String city = "Queens";
+		String county = "Nassau";
+		
+		System.out.println(city);
+		System.out.println(county);
+		System.out.println(country);
+		System.out.println(region);
+			
+	}
+	
+	
+	public static void nj() {
+		String city = "Bloomfield";
+		String county = "Essex";
+		
+		System.out.println(city);
+		System.out.println(county);
+		System.out.println(country);
+		System.out.println(region);
+	}
+	
+	public static void ct() {
+		String city = "Hartford";
+		String county = "Essex";
+
+		System.out.println(city);
+		System.out.println(county);
+		System.out.println(country);
+		System.out.println(region);
+	}
+	
+	
+	
+	
+	
+
+}

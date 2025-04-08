@@ -1,0 +1,37 @@
+package com.upskill.assignment_1;
+
+public class MultplyAssignment {
+	
+// Function to multiply a and b
+public static int multiply(int a, int b) {
+	return a * b;
+			
+}
+
+
+// Function to add a and b
+
+public static void displayadditionwithmultypication() {
+	
+         int a =9;
+         int b =11;
+         int add = a + b;
+         int multiplycationresults = multiply(a,b);
+         int results = a + b + multiplycationresults;
+         System.out.println("The Results of a + b is :"+ add);
+         System.out.println("The Results of a + b + ( a * b ) is : " + results);
+         
+	
+	
+}
+	public static void main(String[] args) {
+		
+		displayadditionwithmultypication();
+        
+        
+        
+		// TODO Auto-generated method stub
+
+	}
+
+}

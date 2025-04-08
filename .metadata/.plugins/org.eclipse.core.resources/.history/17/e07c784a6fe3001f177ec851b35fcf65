@@ -1,0 +1,27 @@
+package com.upskill.assignment_1;
+
+public class RectangleAssignment {
+	
+public static int calculatePremiter(int sideA, int sideB, int sideC, int sideD){
+	return sideA + sideB + sideC + sideD;
+}
+
+
+
+	public static void main(String[] args) {
+		
+		int sideA = 9;
+		int sideB = 13;
+		int sideC = 9;
+		int sideD = 13;
+		
+		int perimeter = calculatePremiter(sideA,sideB, sideC,sideD);
+		
+		System.out.println("The Perimeter of the Rectangle is : " + perimeter + "inches");
+		
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

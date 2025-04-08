@@ -1,0 +1,33 @@
+package com.upskill.assignment_4;
+
+public class Encasulation_Assignment {
+	
+	private String firstname;
+	private String lastname;
+	private String username;
+	private String email;
+	
+	
+	public void setFirstName(String first_name) {
+		firstname = first_name;
+	}
+
+	public void setpasswrod(String password) {
+		password = password;
+	}
+
+	public String getFirstname() {
+		return firstname;
+	}
+	
+	public static void main(String[] args) {
+		
+		Encasulation_Assignment obj = new Encasulation_Assignment();
+		obj.setFirstName("Pascaleen");
+		
+		System.out.println("First Name :" + obj.getFirstname());
+		// TODO Auto-generated method stub
+
+	}
+
+}

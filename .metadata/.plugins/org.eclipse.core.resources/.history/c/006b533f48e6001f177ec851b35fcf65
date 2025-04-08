@@ -1,0 +1,43 @@
+package com.upskill.java_2;
+
+public class Loops {
+	
+	/*
+	 Type of Loops
+	  1. For Loop
+	  2. While Loop
+	  3. Do While Loop
+	  4. Infinite Loop
+	 */
+	
+
+	public static void main(String[] args) {
+		
+		practiceForLoop();
+		practiceWhileLoop();
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void practiceForLoop() {     //For Loop - Do again and again up to upper limit
+		
+		int i;                                 // initialize the variable
+		for(i=1; i<10; i++) {                  // Setting lower limit, upper limit, Increment or Decrement
+			System.out.println("For Loops number = " + i);  //Statement
+			
+			
+		}
+		
+	}
+
+	
+	public static void practiceWhileLoop() {    // While Loop - Do again and again up to condition match
+		
+		int i = 1;
+		while(i<=10) {
+			System.out.println("While Loops number = " + i);
+			i++;
+		}
+		
+	}
+}
