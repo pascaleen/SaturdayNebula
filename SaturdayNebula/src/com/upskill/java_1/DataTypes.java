@@ -52,7 +52,7 @@ public class DataTypes {
 		float p = 1.23456F;
 		double q = 1.12345678;
 		char s = 'A';
-		boolean t = true;
+		boolean t = false;
 		
 		System.out.println(k);
 		System.out.println(l);

@@ -10,7 +10,7 @@ public class NumberOperation {
 	
 	// function that return 50
 	public static int returnFifty() {
-		return 50;
+		return 60;
 		
 	}
 	
