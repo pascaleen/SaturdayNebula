@@ -5,7 +5,7 @@ public class AccessModifier {
 	
 	public String name = "Pascaleen";
 	
-	private int age = 48;
+	private int age = 39;
 	
 	protected int snn = 12345678;
 	
